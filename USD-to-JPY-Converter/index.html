@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter (USD ↔ JPY)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>USD ↔ JPY Currency Converter</h1>
+
+    <div class="conversion">
+      <label for="usdAmount">Enter USD Amount:</label>
+      <input type="number" id="usdAmount" placeholder="Amount in USD">
+      <button onclick="convertUSDToJPY()">Convert USD to JPY</button>
+      <p id="resultUSDToJPY">Converted Amount in JPY: </p>
+    </div>
+
+    <div class="conversion">
+      <label for="jpyAmount">Enter JPY Amount:</label>
+      <input type="number" id="jpyAmount" placeholder="Amount in JPY">
+      <button onclick="convertJPYToUSD()">Convert JPY to USD</button>
+      <p id="resultJPYToUSD">Converted Amount in USD: </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
